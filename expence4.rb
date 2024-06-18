@@ -68,7 +68,8 @@ class ExpenseTracker
 
     if user
       @current_user = user
-      puts "Login successful!"
+
+      puts "login Successful!"
     else
       puts "Invalid username or password. Please try again."
     end
